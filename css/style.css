@@ -233,7 +233,7 @@ footer {
     }
 
     75% {
-        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(1,176,33,1) 100%);
+        background: linear-gradient(0deg, rgba(0,0,0,2) 33%, rgba(1,176,33,1) 100%);
     }
 
     100% {
