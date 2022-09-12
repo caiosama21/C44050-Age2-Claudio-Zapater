@@ -20,21 +20,21 @@
 
 @keyframes animation_body {
     0% {
-        background: linear-gradient(90deg, rgba(255,166,166,1) 0%, rgba(119,0,0,1) 36%, rgba(119,0,0,1) 64%, rgba(255,155,155,1) 100%);
+        background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
     }
 
     25% {}
 
     50% {
-        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,24,119,1) 36%, rgba(0,20,119,1) 64%, rgba(255,0,0,1) 100%);
+        background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 24, 119, 1) 36%, rgba(0, 20, 119, 1) 64%, rgba(255, 0, 0, 1) 100%);
     }
 
     75% {
-        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,119,30,1) 36%, rgba(0,119,28,1) 64%, rgba(255,0,0,1) 100%);
+        background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 119, 30, 1) 36%, rgba(0, 119, 28, 1) 64%, rgba(255, 0, 0, 1) 100%);
     }
 
     100% {
-        background: linear-gradient(90deg, rgba(255,166,166,1) 0%, rgba(119,0,0,1) 36%, rgba(119,0,0,1) 64%, rgba(255,155,155,1) 100%);
+        background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
     }
 }
 
@@ -163,7 +163,7 @@ main {
     grid-area: main;
     width: 100%;
     height: 100%;
-    
+
 }
 
 .tamano-section-main {
@@ -223,21 +223,21 @@ footer {
 
 @keyframes animation_footer {
     0% {
-        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(255,0,0,1) 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(255, 0, 0, 1) 100%);
     }
 
     25% {}
 
     50% {
-        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(1,25,176,1) 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(1, 25, 176, 1) 100%);
     }
 
     75% {
-        background: linear-gradient(0deg, rgba(0,0,0,2) 33%, rgba(1,176,33,1) 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 2) 33%, rgba(1, 176, 33, 1) 100%);
     }
 
     100% {
-        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(255,0,0,1) 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(255, 0, 0, 1) 100%);
     }
 }
 
