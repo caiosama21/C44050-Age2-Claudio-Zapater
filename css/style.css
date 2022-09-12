@@ -40,7 +40,7 @@
 
 
 header {
-    /* display: inline-block; */
+    width: 108%;
     background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
     width: 100%;
     grid-area: header;
@@ -214,6 +214,7 @@ main {
 
 
 footer {
+    width: 108%;
     background-color: brown;
     grid-area: footer;
     animation-name: animation_footer;
@@ -433,10 +434,6 @@ footer {
         align-items: center;
     }
 
-    header {
-        width: 108%;
-    }
-
     .estilo-h1 {
         height: 100%;
         width: 67%;
@@ -452,9 +449,7 @@ footer {
     }
 
 
-    footer {
-        width: 108%;
-    }
+
 
     .caja-slide {
         display: flex;
