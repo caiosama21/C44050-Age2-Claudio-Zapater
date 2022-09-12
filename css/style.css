@@ -71,6 +71,9 @@ header nav {
 
 .estilo-h1:hover {
     color: red;
+    transform: scale(2);
+    perspective:scale(2);
+    transition: all 5s;
 }
 
 
