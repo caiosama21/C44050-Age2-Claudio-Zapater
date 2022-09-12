@@ -22,10 +22,33 @@
 
 header {
     /* display: inline-block; */
-    background: linear-gradient(90deg, rgba(255,166,166,1) 0%, rgba(119,0,0,1) 36%, rgba(119,0,0,1) 64%, rgba(255,155,155,1) 100%);
+    background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
     width: 100%;
     grid-area: header;
+    animation-name: animation_header;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 
+}
+
+@keyframes animation_header {
+    0% {
+        background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
+    }
+
+    25% {}
+
+    50% {
+        background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 24, 119, 1) 36%, rgba(0, 20, 119, 1) 64%, rgba(255, 0, 0, 1) 100%);
+    }
+
+    75% {
+        background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 119, 30, 1) 36%, rgba(0, 119, 28, 1) 64%, rgba(255, 0, 0, 1) 100%);
+    }
+
+    100% {
+        background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
+    }
 }
 
 header nav {
@@ -72,7 +95,7 @@ header nav {
 .estilo-h1:hover {
     color: red;
     transform: scale(2);
-    perspective:scale(2);
+    perspective: scale(2);
     transition: all 5s;
 }
 
