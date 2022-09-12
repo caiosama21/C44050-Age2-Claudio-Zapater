@@ -65,7 +65,17 @@ header nav {
     align-items: center;
     position: relative;
     top: 5%;
+    perspective: 2500;
+    transition: 1s ease;
 }
+
+.estilo-h1:hover {
+    color: red;
+    transform: scale(2);
+    perspective:scale(2);
+    transition: all 5s;
+}
+
 
 .tamano-imagen {
     width: 100%;
