@@ -216,9 +216,30 @@ main {
 footer {
     background-color: brown;
     grid-area: footer;
-
+    animation-name: animation_footer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes animation_footer {
+    0% {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(255,0,0,1) 100%);
+    }
+
+    25% {}
+
+    50% {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(1,25,176,1) 100%);
+    }
+
+    75% {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(1,176,33,1) 100%);
+    }
+
+    100% {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(255,0,0,1) 100%);
+    }
+}
 
 .iconos-footer {
     display: flex;
