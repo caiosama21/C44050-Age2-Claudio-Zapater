@@ -1,0 +1,146 @@
+header {
+    width: 108%;
+    height: 15vh;
+    margin-bottom: 3em;
+    background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
+    grid-area: header;
+    animation-name: animation_body;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        // justify-content: space-between;
+        align-items: center;
+
+        div {
+            h1 {
+                height: 100%;
+                padding: 10px;
+                color: map-get($paleta-colores,"Amarillo");
+                font-family: 'Silkscreen', cursive;
+                font-size: 36px;
+                text-shadow: 4px 4px white;
+                display: flex;
+                align-items: center;
+                position: relative;
+                top: 5%;
+                perspective: 2500;
+                transition: 1s ease;
+
+                &:hover {
+                    color: map-get($paleta-colores,"Rojo");
+                    transform: scale(1.25);
+                    perspective: scale(2);
+                    transition: all 5s;
+                }
+            }
+        }
+
+        div {
+            ul {
+                li {
+                    display: inline-block;
+                    width: fit-content;
+                    height: fit-content;
+                    text-align: center;
+                    background-color: map-get($paleta-colores,"Amarillo");
+                    font-size: 18px;
+                    padding: 5px;
+                    border: 2px solid map-get($paleta-colores,"Rojo");
+                    border-radius: 5px;
+
+                    a {
+                        text-decoration: none;
+                        color: map-get($paleta-colores,"Azul");                    }
+                }
+            }
+        }
+    }
+
+    @keyframes animation_header {
+        0% {
+            background: linear-gradient(90deg, rgba(255, 166, 166, 2) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
+        }
+
+        25% {}
+
+        50% {
+            background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 24, 119, 1) 36%, rgba(0, 20, 119, 1) 64%, rgba(255, 0, 0, 1) 100%);
+        }
+
+        75% {
+            background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 119, 30, 1) 36%, rgba(0, 119, 28, 1) 64%, rgba(255, 0, 0, 1) 100%);
+        }
+
+        100% {
+            background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
+        }
+    }
+
+
+    #estilosLogo {
+        grid-area: logoH;
+    }
+
+    #estilosH1 {
+        grid-area: eH1;
+    }
+
+    #botoneraMenu {
+        grid-area: btnM;
+    }
+
+    .estiloLogo {
+        width: 20px;
+        height: 20px;
+    }
+
+
+// CLASES DE RESPALDO
+
+    .estilo-h1 {
+        height: 100%;
+        padding: 10px;
+        color: rgb(255, 208, 0);
+        font-family: 'Silkscreen', cursive;
+        font-size: 40px;
+        text-shadow: 4px 4px white;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 5%;
+        perspective: 2500;
+        transition: 1s ease;
+    }
+
+    .estilo-h1:hover {
+        color: red;
+        transform: scale(1.15);
+        perspective: scale(2);
+        transition: all 5s;
+    }
+
+
+    .tamano-imagen {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+
+    }
+
+    .tamano-imagen--1 {
+
+        width: 33%;
+        height: 100vh;
+    }
+
+    .tamano-caja-img {
+        // width: 20%;
+        height: 100%;
+    }
+
+}

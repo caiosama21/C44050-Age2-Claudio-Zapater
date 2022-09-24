@@ -1,0 +1,71 @@
+footer {
+    width: 108%;
+    background-color: map-get($paleta-colores,"Marron");
+    grid-area: footer;
+    animation-name: animation_footer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+            a {
+                img {
+                    width: 70px;
+                    height: 70px;
+                    padding: 5px;
+                }
+            }
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+@keyframes animation_footer {
+    0% {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(255, 0, 0, 1) 100%);
+    }
+
+    25% {}
+
+    50% {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(1, 25, 176, 1) 100%);
+    }
+
+    75% {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 2) 33%, rgba(1, 176, 33, 1) 100%);
+    }
+
+    100% {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(255, 0, 0, 1) 100%);
+    }
+}
+
+.iconos-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.iconos-tamano-footer {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
