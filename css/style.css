@@ -194,8 +194,8 @@ main section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 main section iframe:hover {
   -webkit-transform: scale(1.5);
@@ -216,8 +216,8 @@ main section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 main section article-1 {
   height: 100%;
@@ -245,8 +245,8 @@ main section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 main section article-1 {
   height: 100%;
@@ -274,8 +274,8 @@ main section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 main section article-1 {
   height: 100%;
@@ -545,6 +545,16 @@ main section article-2 p {
   border: 10px dotted aqua;
   position: relative;
   top: 30px;
+}
+
+.orientar-caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer {

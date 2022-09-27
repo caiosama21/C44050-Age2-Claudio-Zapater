@@ -20,12 +20,7 @@ main {
     section {
         background-color: map-get($paleta-colores,"Negro");
         width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        @include f-center;
 
         iframe {
             &:hover {
@@ -50,12 +45,7 @@ main {
     }
 
     section {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        @include f-center;
 
         article-1 {
             height: 100%;
@@ -84,12 +74,7 @@ main {
     }
 
     section {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        @include f-center;
 
         article-1 {
             height: 100%;
@@ -118,12 +103,7 @@ main {
     }
 
     section {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        @include f-center;
 
         article-1 {
             height: 100%;
@@ -361,4 +341,9 @@ main {
     border: 10px dotted aqua;
     position: relative;
     top: 30px;
+}
+
+.orientar-caja {
+    display: flex;
+    flex-direction: column;
 }

@@ -1,7 +1,8 @@
-@import "_variables";
-@import "_header";
-@import "_main";
-@import "_footer";
+@import "./variables";
+@import "./mixins";
+@import "./header";
+@import "./main";
+@import "./footer";
 
 * {
     margin: 0;
@@ -42,6 +43,10 @@
         background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
     }
 }
+
+
+
+
 
 /* Media Queris Mobile to Desktop */
 
