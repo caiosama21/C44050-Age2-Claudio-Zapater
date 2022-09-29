@@ -1,5 +1,7 @@
-main {
-    background-color: map-get($paleta-colores,"Negro");
+// MAIN INDEX
+
+#main-index {
+    background-color: map-get($paleta-colores, "Negro");
     grid-area: main;
     width: 100%;
     height: 100%;
@@ -12,13 +14,12 @@ main {
             margin-bottom: 5%;
             text-align: center;
             font-family: "DynaPuff", cursive;
-            color: map-get($paleta-colores,"Antiguo")
-
+            color: map-get($paleta-colores, "Antiguo")
         }
     }
 
     section {
-        background-color: map-get($paleta-colores,"Negro");
+        background-color: map-get($paleta-colores, "Negro");
         width: 100%;
         @include f-center;
 
@@ -39,7 +40,7 @@ main {
             margin-bottom: 5%;
             text-align: center;
             font-family: "DynaPuff", cursive;
-            color: map-get($paleta-colores,"Antiguo");
+            color: map-get($paleta-colores, "Antiguo");
 
         }
     }
@@ -49,10 +50,10 @@ main {
 
         article-1 {
             height: 100%;
-            width: 5%;
+            width: 10%;
             padding: 5px;
-            background-color: map-get($paleta-colores,"Blanco");
-            border: 5px solid map-get($paleta-colores,"Rojo");
+            background-color: map-get($paleta-colores, "Blanco");
+            border: 5px solid map-get($paleta-colores, "Rojo");
 
             img {
                 width: 100%;
@@ -62,13 +63,13 @@ main {
 
         article-2 {
             width: 60%;
-            background-color: map-get($paleta-colores,"Negro");
+            background-color: map-get($paleta-colores, "Negro");
             font-size: 20px;
-            color: map-get($paleta-colores,"Blanco");
-            border: 5px solid map-get($paleta-colores,"Rojo");
+            color: map-get($paleta-colores, "Blanco");
+            border: 5px solid map-get($paleta-colores, "Rojo");
 
             p {
-                background-color: map-get($paleta-colores,"Negro");
+                background-color: map-get($paleta-colores, "Negro");
             }
         }
     }
@@ -78,10 +79,10 @@ main {
 
         article-1 {
             height: 100%;
-            width: 5%;
+            width: 10%;
             padding: 5px;
-            background-color: map-get($paleta-colores,"Blanco");
-            border: 5px solid map-get($paleta-colores,"Rojo");
+            background-color: map-get($paleta-colores, "Blanco");
+            border: 5px solid map-get($paleta-colores, "Rojo");
 
             img {
                 width: 100%;
@@ -91,13 +92,13 @@ main {
 
         article-2 {
             width: 60%;
-            background-color: map-get($paleta-colores,"Negro");
+            background-color: map-get($paleta-colores, "Negro");
             font-size: 20px;
-            color: map-get($paleta-colores,"Blanco");
-            border: 5px solid map-get($paleta-colores,"Rojo");
+            color: map-get($paleta-colores, "Blanco");
+            border: 5px solid map-get($paleta-colores, "Rojo");
 
             p {
-                background-color: map-get($paleta-colores,"Negro");
+                background-color: map-get($paleta-colores, "Negro");
             }
         }
     }
@@ -107,10 +108,10 @@ main {
 
         article-1 {
             height: 100%;
-            width: 5%;
+            width: 10%;
             padding: 5px;
-            background-color: map-get($paleta-colores,"Blanco");
-            border: 5px solid map-get($paleta-colores,"Rojo");
+            background-color: map-get($paleta-colores, "Blanco");
+            border: 5px solid map-get($paleta-colores, "Rojo");
 
             img {
                 width: 100%;
@@ -120,14 +121,250 @@ main {
 
         article-2 {
             width: 60%;
-            background-color: map-get($paleta-colores,"Negro");
+            background-color: map-get($paleta-colores, "Negro");
             font-size: 20px;
-            color: map-get($paleta-colores,"Blanco");
-            border: 5px solid map-get($paleta-colores,"Rojo");
+            color: map-get($paleta-colores, "Blanco");
+            border: 5px solid map-get($paleta-colores, "Rojo");
 
             p {
-                background-color: map-get($paleta-colores,"Negro");
+                background-color: map-get($paleta-colores, "Negro");
             }
+        }
+    }
+
+}
+
+// MAIN HISTORIA 
+
+#main-historia {
+    background-color: map-get($paleta-colores, "Negro");
+    grid-area: main;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3%;
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+
+        h2 {
+            font-size: 60px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-align: center;
+            font-family: 'DynaPuff', cursive;
+            color: antiquewhite;
+
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        article-1 {
+            margin: 10px;
+            padding: 10px;
+
+            h2 {
+                width: 100%;
+                /* height: 40px; */
+                margin: 10px;
+                font-size: 40px;
+                padding-top: 5%;
+                text-align: center;
+                color: antiquewhite;
+            }
+        }
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+
+        article-2 {
+            width: 60%;
+            height: 100%;
+            padding: 5px;
+            background-color: map-get($paleta-colores, "Negro");
+            border: 5px solid map-get($paleta-colores, "Rojo");
+
+            img {
+                background-color: black;
+            }
+        }
+
+        article-3 {
+            width: 60%;
+            background-color: rgb(0, 0, 0);
+            font-size: 20px;
+            color: white;
+            border: 5px solid red;
+
+            p {
+                color: white;
+            }
+        }
+    }
+}
+
+// MAIN ATRIBUTOS
+
+#main-atributos {
+    background-color: map-get($paleta-colores, "Negro");
+    grid-area: main;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3%;
+
+    section {
+        h2 {
+            font-size: 60px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-align: center;
+            font-family: 'DynaPuff', cursive;
+            color: antiquewhite;
+
+        }
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+
+        article-1 {
+            // width: 10%;
+            height: 100%;
+            padding: 5px;
+            background-color: map-get($paleta-colores, "Negro");
+            border: 5px solid map-get($paleta-colores, "Rojo");
+
+            img {
+                background-color: black;
+            }
+        }
+
+        article-2 {
+            width: 60%;
+            background-color: rgb(0, 0, 0);
+            font-size: 20px;
+            color: white;
+            border: 5px solid red;
+
+            p {
+                background-color: black;
+            }
+        }
+    }
+}
+
+// MAIN GALERIA
+
+#main-galeria {
+    background-color: map-get($paleta-colores, "Negro");
+    grid-area: main;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3%;
+
+
+    h2 {
+        font-size: 60px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        font-family: 'DynaPuff', cursive;
+        color: antiquewhite;
+    }
+
+    section-1 {
+
+        article-1 {
+            display: flex;
+
+            h2 {
+                width: 100%;
+                height: 10%;
+                padding: 10px;
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    section-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        height: 15%;
+        background-color: rgb(0, 0, 0);
+        margin-left: 11%;
+        margin-bottom: 2%;
+
+
+        article-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: transparent;
+
+            a {
+                background-color: transparent;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border: 5px solid red;
+
+                    &:hover {
+                        transform: scale(1.5);
+                        perspective: scale(2);
+                        transition: all 2s;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+#main-contacto {
+    background-color: map-get($paleta-colores, "Negro");
+    grid-area: main;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 6%;
+
+    section {
+        display: flex;
+        flex-direction: column;
+
+        article {
+            h2 {
+                font-size: 60px;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                text-align: center;
+                font-family: 'DynaPuff', cursive;
+                color: antiquewhite;
+
+            }
+        }
+    }
+
+    form {
+        section {
+            background-color: beige;
+            border: 10px dotted aqua;
+            
         }
     }
 
@@ -208,8 +445,8 @@ main {
     // width: 10%;
     height: 100%;
     padding: 5px;
-    background-color: map-get($paleta-colores,"white");
-    border: 5px solid map-get($paleta-colores,"red");
+    background-color: map-get($paleta-colores, "white");
+    border: 5px solid map-get($paleta-colores, "red");
 }
 
 #imagenLogoparcheH {
@@ -264,7 +501,7 @@ main {
     justify-content: center;
     width: 80%;
     height: 15%;
-    background-color: rgb(216, 81, 81);
+    background-color: rgb(0, 0, 0);
     margin-left: 11%;
     margin-bottom: 2%;
 }

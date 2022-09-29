@@ -31,7 +31,7 @@ header nav {
           align-items: center;
 }
 header nav div h1 {
-  height: 100%;
+  height: 90%;
   padding: 10px;
   color: rgb(255, 208, 0);
   font-family: "Silkscreen", cursive;
@@ -114,19 +114,6 @@ header nav div ul li a {
     background: linear-gradient(90deg, rgb(255, 166, 166) 0%, rgb(119, 0, 0) 36%, rgb(119, 0, 0) 64%, rgb(255, 155, 155) 100%);
   }
 }
-header #estilosLogo {
-  grid-area: logoH;
-}
-header #estilosH1 {
-  grid-area: eH1;
-}
-header #botoneraMenu {
-  grid-area: btnM;
-}
-header .estiloLogo {
-  width: 20px;
-  height: 20px;
-}
 header .estilo-h1 {
   height: 100%;
   padding: 10px;
@@ -169,7 +156,7 @@ header .tamano-caja-img {
   height: 100%;
 }
 
-main {
+#main-index {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -179,7 +166,7 @@ main {
   height: 100%;
   margin-bottom: 3%;
 }
-main span h2 {
+#main-index span h2 {
   font-size: 60px;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -187,7 +174,7 @@ main span h2 {
   font-family: "DynaPuff", cursive;
   color: antiquewhite;
 }
-main section {
+#main-index section {
   background-color: black;
   width: 100%;
   display: -webkit-box;
@@ -197,13 +184,13 @@ main section {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main section iframe:hover {
+#main-index section iframe:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
   -webkit-transition: all 5s;
   transition: all 5s;
 }
-main section h2 {
+#main-index section h2 {
   font-size: 60px;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -211,7 +198,7 @@ main section h2 {
   font-family: "DynaPuff", cursive;
   color: antiquewhite;
 }
-main section {
+#main-index section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,28 +206,28 @@ main section {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main section article-1 {
+#main-index section article-1 {
   height: 100%;
-  width: 5%;
+  width: 10%;
   padding: 5px;
   background-color: white;
   border: 5px solid red;
 }
-main section article-1 img {
+#main-index section article-1 img {
   width: 100%;
   height: 100%;
 }
-main section article-2 {
+#main-index section article-2 {
   width: 60%;
   background-color: black;
   font-size: 20px;
   color: white;
   border: 5px solid red;
 }
-main section article-2 p {
+#main-index section article-2 p {
   background-color: black;
 }
-main section {
+#main-index section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,28 +235,28 @@ main section {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main section article-1 {
+#main-index section article-1 {
   height: 100%;
-  width: 5%;
+  width: 10%;
   padding: 5px;
   background-color: white;
   border: 5px solid red;
 }
-main section article-1 img {
+#main-index section article-1 img {
   width: 100%;
   height: 100%;
 }
-main section article-2 {
+#main-index section article-2 {
   width: 60%;
   background-color: black;
   font-size: 20px;
   color: white;
   border: 5px solid red;
 }
-main section article-2 p {
+#main-index section article-2 p {
   background-color: black;
 }
-main section {
+#main-index section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -277,26 +264,270 @@ main section {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main section article-1 {
+#main-index section article-1 {
   height: 100%;
-  width: 5%;
+  width: 10%;
   padding: 5px;
   background-color: white;
   border: 5px solid red;
 }
-main section article-1 img {
+#main-index section article-1 img {
   width: 100%;
   height: 100%;
 }
-main section article-2 {
+#main-index section article-2 {
   width: 60%;
   background-color: black;
   font-size: 20px;
   color: white;
   border: 5px solid red;
 }
-main section article-2 p {
+#main-index section article-2 p {
   background-color: black;
+}
+
+#main-historia {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  background-color: black;
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3%;
+}
+#main-historia section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+#main-historia section h2 {
+  font-size: 60px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "DynaPuff", cursive;
+  color: antiquewhite;
+}
+#main-historia section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#main-historia section article-1 {
+  margin: 10px;
+  padding: 10px;
+}
+#main-historia section article-1 h2 {
+  width: 100%;
+  /* height: 40px; */
+  margin: 10px;
+  font-size: 40px;
+  padding-top: 5%;
+  text-align: center;
+  color: antiquewhite;
+}
+#main-historia section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#main-historia section article-2 {
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+  background-color: black;
+  border: 5px solid red;
+}
+#main-historia section article-2 img {
+  background-color: black;
+}
+#main-historia section article-3 {
+  width: 60%;
+  background-color: rgb(0, 0, 0);
+  font-size: 20px;
+  color: white;
+  border: 5px solid red;
+}
+#main-historia section article-3 p {
+  color: white;
+}
+
+#main-atributos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  background-color: black;
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3%;
+}
+#main-atributos section h2 {
+  font-size: 60px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "DynaPuff", cursive;
+  color: antiquewhite;
+}
+#main-atributos section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#main-atributos section article-1 {
+  height: 100%;
+  padding: 5px;
+  background-color: black;
+  border: 5px solid red;
+}
+#main-atributos section article-1 img {
+  background-color: black;
+}
+#main-atributos section article-2 {
+  width: 60%;
+  background-color: rgb(0, 0, 0);
+  font-size: 20px;
+  color: white;
+  border: 5px solid red;
+}
+#main-atributos section article-2 p {
+  background-color: black;
+}
+
+#main-galeria {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  background-color: black;
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3%;
+}
+#main-galeria h2 {
+  font-size: 60px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "DynaPuff", cursive;
+  color: antiquewhite;
+}
+#main-galeria section-1 article-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#main-galeria section-1 article-1 h2 {
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#main-galeria section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  height: 15%;
+  background-color: rgb(0, 0, 0);
+  margin-left: 11%;
+  margin-bottom: 2%;
+}
+#main-galeria section-2 article-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+}
+#main-galeria section-2 article-2 a {
+  background-color: transparent;
+}
+#main-galeria section-2 article-2 a img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid red;
+}
+#main-galeria section-2 article-2 a img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-perspective: scale(2);
+          perspective: scale(2);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+#main-contacto {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  background-color: black;
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 6%;
+}
+#main-contacto section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#main-contacto section article h2 {
+  font-size: 60px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "DynaPuff", cursive;
+  color: antiquewhite;
+}
+#main-contacto form section {
+  background-color: beige;
+  border: 10px dotted aqua;
 }
 
 .tamano-section-main {
@@ -462,7 +693,7 @@ main section article-2 p {
           justify-content: center;
   width: 80%;
   height: 15%;
-  background-color: rgb(216, 81, 81);
+  background-color: rgb(0, 0, 0);
   margin-left: 11%;
   margin-bottom: 2%;
 }

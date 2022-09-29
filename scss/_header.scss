@@ -18,7 +18,7 @@ header {
 
         div {
             h1 {
-                height: 100%;
+                height: 90%;
                 padding: 10px;
                 color: map-get($paleta-colores,"Amarillo");
                 font-family: 'Silkscreen', cursive;
@@ -82,22 +82,6 @@ header {
     }
 
 
-    #estilosLogo {
-        grid-area: logoH;
-    }
-
-    #estilosH1 {
-        grid-area: eH1;
-    }
-
-    #botoneraMenu {
-        grid-area: btnM;
-    }
-
-    .estiloLogo {
-        width: 20px;
-        height: 20px;
-    }
 
 
 // CLASES DE RESPALDO
