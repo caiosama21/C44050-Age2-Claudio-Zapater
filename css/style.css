@@ -936,6 +936,16 @@ footer section a img {
 }
 /* Media Queris Mobile to Desktop */
 @media only screen and (min-width: 360px) {
+  #main-galeria article-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
   .tamano-caja-img {
     width: 0;
   }
