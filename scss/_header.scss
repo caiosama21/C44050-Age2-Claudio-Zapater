@@ -1,38 +1,37 @@
 header {
-    width: 108%;
+    width: 100%;
     height: 15vh;
     margin-bottom: 3em;
-    background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
+    background-image: url(../assets/images/4869.jpg);
+    background-size: contain;
+    background-repeat:repeat-x ;
+    
     grid-area: header;
-    animation-name: animation_body;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    // animation-name: animation_body;
+    // animation-duration: 10s;
+    // animation-iteration-count: infinite;
     z-index: 1;
+
     nav {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: row-reverse;
-        // justify-content: space-between;
         align-items: center;
 
+        .tamano-caja-img {
+
+            .tamano-imagen {
+                background-color: transparent;
+            }
+
+        }
+
         div {
-            h1 {
-                height: 90%;
-                padding: 10px;
-                color: map-get($paleta-colores,"Amarillo");
-                font-family: 'Silkscreen', cursive;
-                font-size: 36px;
-                text-shadow: 4px 4px white;
-                display: flex;
-                align-items: center;
-                position: relative;
-                top: 5%;
-                perspective: 2500;
-                transition: 1s ease;
+            .estilo-h1 {
 
                 &:hover {
-                    color: map-get($paleta-colores,"Rojo");
+                    color: map-get($paleta-colores, "Rojo");
                     transform: scale(1.25);
                     perspective: scale(2);
                     transition: all 5s;
@@ -47,15 +46,16 @@ header {
                     width: fit-content;
                     height: fit-content;
                     text-align: center;
-                    background-color: map-get($paleta-colores,"Amarillo");
+                    background-color: map-get($paleta-colores, "Amarillo");
                     font-size: 18px;
                     padding: 5px;
-                    border: 2px solid map-get($paleta-colores,"Rojo");
+                    border: 2px solid map-get($paleta-colores, "Rojo");
                     border-radius: 5px;
 
                     a {
                         text-decoration: none;
-                        color: map-get($paleta-colores,"Azul");                    }
+                        color: map-get($paleta-colores, "Azul");
+                    }
                 }
             }
         }
@@ -80,51 +80,65 @@ header {
             background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
         }
     }
+}
 
 
 
+// CLASES 
 
-// CLASES DE RESPALDO
+.navbar-toggler {
+    background-color:  rgb(255, 208, 0);
+    border-color: red;
+}
+.navbar-light {
+    border-color: red;
+}
+#estilo-menu {
+    color: map-get($paleta-colores, "Blanco");
+    text-decoration: none;
+    margin: 1rem;
+    font-weight: 400;
+    font-size: larger;
+}
+.estilo-h1 {
+    height: 100%;
+    padding: 10px;
+    color: rgb(255, 208, 0);
+    font-family: 'Silkscreen', cursive;
+    font-size: 40px;
+    text-shadow: 4px 4px white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    perspective: 2500;
+    transition: 1s ease;
+}
 
-    .estilo-h1 {
-        height: 100%;
-        padding: 10px;
-        color: rgb(255, 208, 0);
-        font-family: 'Silkscreen', cursive;
-        font-size: 40px;
-        text-shadow: 4px 4px white;
-        display: flex;
-        align-items: center;
-        position: relative;
-        top: 5%;
-        perspective: 2500;
-        transition: 1s ease;
-    }
 
-    .estilo-h1:hover {
-        color: red;
-        transform: scale(1.15);
-        perspective: scale(2);
-        transition: all 5s;
-    }
+.estilo-h1:hover {
+    color: red;
+    transform: scale(1.15);
+    perspective: scale(2);
+    transition: all 5s;
+}
 
 
-    .tamano-imagen {
-        width: 100%;
-        height: 100%;
-        padding: 5px;
-
-    }
-
-    .tamano-imagen--1 {
-
-        width: 33%;
-        height: 100vh;
-    }
-
-    .tamano-caja-img {
-        // width: 20%;
-        height: 100%;
-    }
+.tamano-imagen {
+    width: 100%;
+    height: 100%;
+    
 
 }
+
+.tamano-imagen--1 {
+
+    width: 33%;
+    height: 100vh;
+}
+
+.tamano-caja-img {
+    width: 20%;
+    height: 100%;
+}
+
