@@ -90,11 +90,7 @@
         }
 
         a {
-            width: 60%;
-            background-color: map-get($paleta-colores, "Negro");
-            font-size: 20px;
-            color: map-get($paleta-colores, "Blanco");
-            border: 5px solid map-get($paleta-colores, "Rojo");
+            @include border-img;
 
             p {
                 background-color: map-get($paleta-colores, "Negro");

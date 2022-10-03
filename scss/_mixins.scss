@@ -9,3 +9,10 @@
     justify-content: center;
 }
 
+@mixin border-img{
+    width: 60%;
+    background-color: map-get($paleta-colores, "Negro");
+    font-size: 20px;
+    color: map-get($paleta-colores, "Blanco");
+    border: 5px solid map-get($paleta-colores, "Azul");
+}

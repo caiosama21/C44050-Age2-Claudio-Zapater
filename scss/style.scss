@@ -21,32 +21,9 @@
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "header header header"
-                         "main main main"
-                         "footer footer footer";
+        "main main main"
+        "footer footer footer";
 }
-
-@keyframes animation_body {
-    0% {
-        background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
-    }
-
-    25% {}
-
-    50% {
-        background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 24, 119, 1) 36%, rgba(0, 20, 119, 1) 64%, rgba(255, 0, 0, 1) 100%);
-    }
-
-    75% {
-        background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 119, 30, 1) 36%, rgba(0, 119, 28, 1) 64%, rgba(255, 0, 0, 1) 100%);
-    }
-
-    100% {
-        background: linear-gradient(90deg, rgba(255, 166, 166, 1) 0%, rgba(119, 0, 0, 1) 36%, rgba(119, 0, 0, 1) 64%, rgba(255, 155, 155, 1) 100%);
-    }
-}
-
-
-
 
 
 /* Media Queris Mobile to Desktop */
@@ -69,7 +46,7 @@
         padding: 10px;
         color: rgb(255, 208, 0);
         font-family: 'Silkscreen', cursive;
-        font-size: 40px;
+        font-size: 22px;
         text-shadow: 4px 4px white;
         display: flex;
         align-items: center;
@@ -105,6 +82,23 @@
         border: none;
     }
 
+}
+
+@media screen and (min-width: 500px) {
+
+    .estilo-h1 {
+        height: 100%;
+        width: 67%;
+        padding: 10px;
+        color: rgb(255, 208, 0);
+        font-family: 'Silkscreen', cursive;
+        font-size: 40px;
+        text-shadow: 4px 4px white;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 5%;
+    }
 }
 
 @media screen and (min-width: 768px) {
