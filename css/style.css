@@ -175,6 +175,7 @@ header nav div ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 #main-index section .caja-trailer iframe:hover {
   -webkit-transform: scale(1.5);
@@ -197,6 +198,7 @@ header nav div ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 #main-index section .article-left-1 img {
   width: 100%;
@@ -212,6 +214,7 @@ header nav div ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 #main-index section .article-left-1 img {
   width: 100%;
@@ -227,6 +230,7 @@ header nav div ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 #main-index section .article-left-1 img {
   width: 100%;
