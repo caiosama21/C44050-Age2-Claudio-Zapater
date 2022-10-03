@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    background-color: map-get($paleta-colores,"Marron");
+    background-color: map-get($paleta-colores, "Marron");
     grid-area: footer;
     animation-name: animation_footer;
     animation-duration: 10s;
@@ -17,13 +17,14 @@ footer {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: end;
-            a {
-                img {
-                    width: 70px;
-                    height: 70px;
-                    padding: 5px;
-                }
+
+        a {
+            img {
+                width: 70px;
+                height: 70px;
+                padding: 5px;
             }
+        }
     }
 
 
@@ -39,21 +40,23 @@ footer {
 
 @keyframes animation_footer {
     0% {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(255, 0, 0, 1) 100%);
+
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(237, 187, 107, 1) 100%);
     }
 
     25% {}
 
     50% {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(1, 25, 176, 1) 100%);
+
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(237, 187, 107, 1) 100%);
     }
 
     75% {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 2) 33%, rgba(1, 176, 33, 1) 100%);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(237, 187, 107, 1) 100%);
     }
 
     100% {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 33%, rgba(255, 0, 0, 1) 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(237, 187, 107, 1) 100%);
     }
 }
 

@@ -115,7 +115,7 @@ header nav div ul li a {
   padding: 10px;
   color: rgb(255, 208, 0);
   font-family: "Silkscreen", cursive;
-  font-size: 40px;
+  font-size: 38px;
   text-shadow: 4px 4px white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,11 +233,7 @@ header nav div ul li a {
   height: 100%;
 }
 #main-index section a {
-  width: 60%;
-  background-color: black;
-  font-size: 20px;
-  color: white;
-  border: 5px solid rgb(0, 47, 255);
+  border: 5px dotted red;
 }
 #main-index section a p {
   background-color: black;
@@ -334,7 +330,7 @@ header nav div ul li a {
 }
 #main-contacto section form section {
   background-color: beige;
-  border: 10px dotted aqua;
+  border: 5px dotted red;
 }
 
 .tamano-section-main {
@@ -623,39 +619,39 @@ footer section a img {
 
 @-webkit-keyframes animation_footer {
   0% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(255, 0, 0)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(255, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(237, 187, 107) 100%);
   }
   50% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(1, 25, 176)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(1, 25, 176) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 0, 0)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(237, 187, 107) 100%);
   }
   75% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(1, 176, 33)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(1, 176, 33) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(237, 187, 107) 100%);
   }
   100% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(255, 0, 0)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(255, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 0, 0)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(237, 187, 107) 100%);
   }
 }
 
 @keyframes animation_footer {
   0% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(255, 0, 0)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(255, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(237, 187, 107) 100%);
   }
   50% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(1, 25, 176)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(1, 25, 176) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 0, 0)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(237, 187, 107) 100%);
   }
   75% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(1, 176, 33)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(1, 176, 33) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(237, 187, 107) 100%);
   }
   100% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgb(0, 0, 0)), to(rgb(255, 0, 0)));
-    background: linear-gradient(0deg, rgb(0, 0, 0) 33%, rgb(255, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 0, 0)), to(rgb(237, 187, 107)));
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(237, 187, 107) 100%);
   }
 }
 .iconos-footer {
@@ -699,6 +695,43 @@ footer section a img {
       grid-template-areas: "header header header" "main main main" "footer footer footer";
 }
 
+@-webkit-keyframes animation_body {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 166, 166)), color-stop(36%, rgb(119, 0, 0)), color-stop(64%, rgb(119, 0, 0)), to(rgb(255, 155, 155)));
+    background: linear-gradient(90deg, rgb(255, 166, 166) 0%, rgb(119, 0, 0) 36%, rgb(119, 0, 0) 64%, rgb(255, 155, 155) 100%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(36%, rgb(0, 24, 119)), color-stop(64%, rgb(0, 20, 119)), to(rgb(255, 0, 0)));
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(0, 24, 119) 36%, rgb(0, 20, 119) 64%, rgb(255, 0, 0) 100%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(36%, rgb(0, 119, 30)), color-stop(64%, rgb(0, 119, 28)), to(rgb(255, 0, 0)));
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(0, 119, 30) 36%, rgb(0, 119, 28) 64%, rgb(255, 0, 0) 100%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 166, 166)), color-stop(36%, rgb(119, 0, 0)), color-stop(64%, rgb(119, 0, 0)), to(rgb(255, 155, 155)));
+    background: linear-gradient(90deg, rgb(255, 166, 166) 0%, rgb(119, 0, 0) 36%, rgb(119, 0, 0) 64%, rgb(255, 155, 155) 100%);
+  }
+}
+
+@keyframes animation_body {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 166, 166)), color-stop(36%, rgb(119, 0, 0)), color-stop(64%, rgb(119, 0, 0)), to(rgb(255, 155, 155)));
+    background: linear-gradient(90deg, rgb(255, 166, 166) 0%, rgb(119, 0, 0) 36%, rgb(119, 0, 0) 64%, rgb(255, 155, 155) 100%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(36%, rgb(0, 24, 119)), color-stop(64%, rgb(0, 20, 119)), to(rgb(255, 0, 0)));
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(0, 24, 119) 36%, rgb(0, 20, 119) 64%, rgb(255, 0, 0) 100%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(36%, rgb(0, 119, 30)), color-stop(64%, rgb(0, 119, 28)), to(rgb(255, 0, 0)));
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(0, 119, 30) 36%, rgb(0, 119, 28) 64%, rgb(255, 0, 0) 100%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 166, 166)), color-stop(36%, rgb(119, 0, 0)), color-stop(64%, rgb(119, 0, 0)), to(rgb(255, 155, 155)));
+    background: linear-gradient(90deg, rgb(255, 166, 166) 0%, rgb(119, 0, 0) 36%, rgb(119, 0, 0) 64%, rgb(255, 155, 155) 100%);
+  }
+}
 /* Media Queris Mobile to Desktop */
 @media screen and (min-width: 360px) {
   .tamano-caja-img {
@@ -769,21 +802,7 @@ footer section a img {
 }
 @media screen and (min-width: 500px) {
   .estilo-h1 {
-    height: 100%;
-    width: 67%;
-    padding: 10px;
-    color: rgb(255, 208, 0);
-    font-family: "Silkscreen", cursive;
-    font-size: 40px;
-    text-shadow: 4px 4px white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
-    top: 5%;
+    font-size: 34px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -823,7 +842,7 @@ footer section a img {
     padding: 10px;
     color: rgb(255, 208, 0);
     font-family: "Silkscreen", cursive;
-    font-size: 40px;
+    font-size: 38px;
     text-shadow: 4px 4px white;
     display: -webkit-box;
     display: -ms-flexbox;

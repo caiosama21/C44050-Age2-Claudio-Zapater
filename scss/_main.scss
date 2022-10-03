@@ -236,9 +236,10 @@
         }
 
         form {
+            
             section {
                 background-color: beige;
-                border: 10px dotted aqua;
+                @include border-img;
 
             }
         }
