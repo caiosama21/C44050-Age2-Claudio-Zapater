@@ -308,6 +308,7 @@ header nav div ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 3%;
 }
 
 .caja-trailer {
@@ -372,7 +373,7 @@ header nav div ul li a {
 }
 
 #estilo-h2-main, #estilo-h2-main-historia, #estilo-h2-main--agregar {
-  font-size: 50px;
+  font-size: 45px;
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
@@ -795,7 +796,7 @@ footer section a img {
         -ms-flex-pack: center;
             justify-content: center;
     width: 80%;
-    height: 15%;
+    height: 9%;
     background-color: transparent;
     margin-left: 11%;
     margin-bottom: 2%;
