@@ -42,10 +42,11 @@ header {
                     width: fit-content;
                     height: fit-content;
                     text-align: center;
-                    background-color: map-get($paleta-colores, "Amarillo");
+                    background-image: url(../assets/images/Menu-3.jpg);
+                    background-repeat: repeat;
                     font-size: 18px;
                     padding: 5px;
-                    border: 2px solid map-get($paleta-colores, "Rojo");
+                    border: 2px solid map-get($paleta-colores, "Blanco");
                     border-radius: 5px;
 
                     a {
@@ -64,11 +65,15 @@ header {
 // CLASES 
 
 .navbar-toggler {
-    background-color:  rgb(255, 208, 0);
-    border-color: red;
+    background-color:  rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
 }
 .navbar-light {
-    border-color: red;
+    border-color: rgb(255, 255, 255);
+    color: map-get($paleta-colores , "Blanco");
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
 }
 #estilo-menu {
     color: map-get($paleta-colores, "Blanco");
@@ -81,7 +86,7 @@ header {
     height: 100%;
     padding: 10px;
     color: rgb(255, 255, 255);
-    font-family: 'Silkscreen', cursive;
+    font-family: 'MedievalSharp', cursive;
     font-size: 38px;
     text-shadow: 4px 4px rgb(255, 0, 0);
     display: flex;

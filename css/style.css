@@ -46,10 +46,11 @@ header nav div ul li {
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
-  background-color: rgb(255, 208, 0);
+  background-image: url(../assets/images/Menu-3.jpg);
+  background-repeat: repeat;
   font-size: 18px;
   padding: 5px;
-  border: 2px solid red;
+  border: 2px solid white;
   border-radius: 5px;
 }
 header nav div ul li a {
@@ -58,12 +59,17 @@ header nav div ul li a {
 }
 
 .navbar-toggler {
-  background-color: rgb(255, 208, 0);
-  border-color: red;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
 }
 
 .navbar-light {
-  border-color: red;
+  border-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
 }
 
 #estilo-menu {
@@ -78,7 +84,7 @@ header nav div ul li a {
   height: 100%;
   padding: 10px;
   color: rgb(255, 255, 255);
-  font-family: "Silkscreen", cursive;
+  font-family: "MedievalSharp", cursive;
   font-size: 38px;
   text-shadow: 4px 4px rgb(255, 0, 0);
   display: -webkit-box;
@@ -637,7 +643,7 @@ footer section a img {
 #grilla {
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/images/papiro.jpg);
+  background-image: url(../assets/images/fondomadera1.jpg);
   background-repeat: repeat;
   display: -ms-grid;
   display: grid;
