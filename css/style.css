@@ -39,26 +39,8 @@ header nav div .estilo-h1:hover {
   -webkit-transition: all 5s;
   transition: all 5s;
 }
-<<<<<<< HEAD
 header nav div ul #estilo-menu:hover {
   background-image: url(../assets/images/fuego-chico.jpg);
-=======
-header nav div ul li {
-  display: inline-block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  text-align: center;
-  background-image: url(../assets/images/Menu-3.jpg);
-  background-repeat: repeat;
-  font-size: 18px;
-  padding: 5px;
-  border: 2px solid white;
-  border-radius: 5px;
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 }
 header nav div ul #estilo-menu a {
   background-color: transparent;
@@ -76,10 +58,7 @@ header nav div ul #estilo-menu a {
 
 .nav-link {
   color: rgb(255, 255, 255) !important;
-<<<<<<< HEAD
   font-weight: 700 !important;
-=======
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 }
 
 #estilo-menu {
@@ -147,11 +126,7 @@ header nav div ul #estilo-menu a {
   height: 100%;
   padding: 10px;
   color: rgb(255, 255, 255);
-<<<<<<< HEAD
   font-family: "New Rocker", cursive;
-=======
-  font-family: "MedievalSharp", cursive;
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
   font-size: 38px;
   text-shadow: 2px 2px rgb(255, 0, 0);
   display: -webkit-box;
@@ -685,11 +660,7 @@ footer section a img {
 #grilla {
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
   background-image: url(../assets/images/Menu-4.jpg);
-=======
-  background-image: url(../assets/images/fondomadera1.jpg);
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
   background-repeat: repeat;
   display: -ms-grid;
   display: grid;

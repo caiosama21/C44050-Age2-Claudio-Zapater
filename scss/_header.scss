@@ -39,24 +39,10 @@ header {
         div {
 
             ul {
-<<<<<<< HEAD
                 #estilo-menu {
                     &:hover {
                         background-image: url(../assets/images/fuego-chico.jpg);
                     }
-=======
-                li {
-                    display: inline-block;
-                    width: fit-content;
-                    height: fit-content;
-                    text-align: center;
-                    background-image: url(../assets/images/Menu-3.jpg);
-                    background-repeat: repeat;
-                    font-size: 18px;
-                    padding: 5px;
-                    border: 2px solid map-get($paleta-colores, "Blanco");
-                    border-radius: 5px;
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 
                     a {
 
@@ -73,24 +59,13 @@ header {
 // CLASES 
 
 .navbar-toggler {
-<<<<<<< HEAD
     background-color: rgb(255, 255, 255);
-=======
-    background-color:  rgb(255, 255, 255);
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
     border-color: rgb(255, 255, 255);
 }
 
 .navbar-light {
     border-color: rgb(255, 255, 255);
-<<<<<<< HEAD
     color: map-get($paleta-colores, "Blanco");
-=======
-    color: map-get($paleta-colores , "Blanco");
-}
-.nav-link{
-    color: rgb(255, 255, 255) !important;
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 }
 
 .nav-link {
@@ -149,11 +124,7 @@ header {
     height: 100%;
     padding: 10px;
     color: rgb(255, 255, 255);
-<<<<<<< HEAD
     font-family: 'New Rocker', cursive;
-=======
-    font-family: 'MedievalSharp', cursive;
->>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
     font-size: 38px;
     text-shadow: 2px 2px rgb(255, 0, 0);
     display: flex;
