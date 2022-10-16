@@ -10,6 +10,7 @@ header {
   background-repeat: repeat-x;
   grid-area: header;
   z-index: 1;
+  position: fixed;
 }
 header nav {
   width: 100%;
@@ -30,6 +31,7 @@ header nav .tamano-caja-img .tamano-imagen {
 }
 header nav div .estilo-h1:hover {
   color: red;
+  text-shadow: 2px 2px rgb(255, 255, 255);
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
   -webkit-perspective: scale(2);
@@ -37,6 +39,10 @@ header nav div .estilo-h1:hover {
   -webkit-transition: all 5s;
   transition: all 5s;
 }
+<<<<<<< HEAD
+header nav div ul #estilo-menu:hover {
+  background-image: url(../assets/images/fuego-chico.jpg);
+=======
 header nav div ul li {
   display: inline-block;
   width: -webkit-fit-content;
@@ -52,10 +58,10 @@ header nav div ul li {
   padding: 5px;
   border: 2px solid white;
   border-radius: 5px;
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 }
-header nav div ul li a {
-  text-decoration: none;
-  color: rgb(0, 47, 255);
+header nav div ul #estilo-menu a {
+  background-color: transparent;
 }
 
 .navbar-toggler {
@@ -70,23 +76,84 @@ header nav div ul li a {
 
 .nav-link {
   color: rgb(255, 255, 255) !important;
+<<<<<<< HEAD
+  font-weight: 700 !important;
+=======
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 }
 
 #estilo-menu {
   color: white;
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  background-image: url(../assets/images/Menu-3.jpg);
+  background-repeat: repeat;
+  font-size: 18px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
   text-decoration: none;
-  margin: 1rem;
-  font-weight: 400;
+  margin: 0rem;
+  font-weight: 700;
   font-size: larger;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#estilo-menu-2 {
+  color: white;
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  background-image: url(../assets/images/Menu-3.jpg);
+  background-repeat: repeat;
+  font-size: 18px !important;
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 0rem;
+  font-weight: 500;
+  font-size: larger;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#estilo-menu-2:hover {
+  background-image: url(../assets/images/fuego-chico.jpg);
 }
 
 .estilo-h1 {
   height: 100%;
   padding: 10px;
   color: rgb(255, 255, 255);
+<<<<<<< HEAD
+  font-family: "New Rocker", cursive;
+=======
   font-family: "MedievalSharp", cursive;
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
   font-size: 38px;
-  text-shadow: 4px 4px rgb(255, 0, 0);
+  text-shadow: 2px 2px rgb(255, 0, 0);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +170,7 @@ header nav div ul li a {
 
 .estilo-h1:hover {
   color: red;
+  text-shadow: 2px 2px rgb(255, 255, 255);
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
   -webkit-perspective: scale(2);
@@ -158,8 +226,8 @@ header nav div ul li a {
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
-  font-family: "DynaPuff", cursive;
-  color: red;
+  font-family: "Kanit", sans-serif;
+  color: white;
 }
 #main-index section {
   display: -webkit-box;
@@ -207,10 +275,10 @@ header nav div ul li a {
   height: 100%;
 }
 #main-index section a {
-  border: 5px dotted red;
+  background-color: transparent;
 }
 #main-index section a p {
-  background-color: black;
+  background-color: white;
 }
 
 #main-historia {
@@ -223,17 +291,18 @@ header nav div ul li a {
   height: 100%;
   margin-bottom: 3%;
 }
-#main-historia .tamano-section-main #estilo-h2-main, #main-historia .tamano-section-main #estilo-h2-main-historia, #main-historia .tamano-section-main #estilo-h2-main--agregar {
+#main-historia .tamano-section-main #estilo-h2-main-historia {
   background-color: transparent;
 }
 #main-historia .estilo-historia .estilo-article .estilo-h2-a {
   background-color: transparent;
 }
-#main-historia .tamano-section-main .article-left-1 img {
+#main-historia .tamano-section-main .article-left-1-2 img {
   background-color: black;
 }
 #main-historia .tamano-section-main .article-right-2 p {
-  color: black;
+  color: white;
+  font-size: larger;
 }
 
 #main-atributos {
@@ -257,6 +326,10 @@ header nav div ul li a {
 .tamano-section-main .article-right-2 {
   background-color: transparent;
 }
+.tamano-section-main .article-right-2 p {
+  color: beige;
+  width: 100%;
+}
 
 .main-galeria {
   -ms-grid-row: 2;
@@ -268,25 +341,23 @@ header nav div ul li a {
   height: 100%;
   margin-bottom: 3%;
 }
-.main-galeria .estilo-h2-main {
+.main-galeria #estilo-h2-main, .main-galeria #estilo-h2-main-historia, .main-galeria #estilo-h2-main--agregar {
   background-color: transparent;
 }
-.main-galeria section .estilo-h2-a {
+.main-galeria section article .estilo-h2-a {
   background-color: transparent;
 }
-.main-galeria .caja-slide article {
-  margin: 1%;
-}
-.main-galeria .caja-slide article a {
+.main-galeria .caja-slide div a {
   background-color: transparent;
 }
-.main-galeria .caja-slide article a .foto-slide:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-perspective: scale(2);
-          perspective: scale(2);
-  -webkit-transition: all 2s;
-  transition: all 2s;
+.main-galeria .caja-slide div a:hover {
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  -webkit-perspective: scale(3);
+          perspective: scale(3);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  z-index: 1;
 }
 
 #main-contacto {
@@ -304,17 +375,24 @@ header nav div ul li a {
 }
 #main-contacto section form section {
   background-color: beige;
-  border: 5px dotted red;
 }
 
 .tamano-section-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 3%;
+  margin-top: 0;
 }
 
 .caja-trailer {
@@ -347,8 +425,31 @@ header nav div ul li a {
 .article-right-2 {
   width: 60%;
   font-size: 20px;
-  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
   border: 5px solid red;
+}
+
+.card-img-top {
+  height: 150px;
+}
+
+.card {
+  background-color: transparent;
+  color: white;
+}
+
+.cardo-text {
+  font-family: "EB Garamond", serif;
 }
 
 .estilo-article {
@@ -360,10 +461,10 @@ header nav div ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -373,18 +474,18 @@ header nav div ul li a {
 
 #estilo-h2-main--agregar {
   width: 100%;
-  margin: 10px;
   font-size: 40px;
+  margin-top: 0% !important;
   padding-top: 5%;
 }
 
 #estilo-h2-main, #estilo-h2-main-historia, #estilo-h2-main--agregar {
   font-size: 45px;
-  margin-top: 5%;
+  margin-top: 120px;
   margin-bottom: 5%;
   text-align: center;
-  font-family: "DynaPuff", cursive;
-  color: red;
+  font-family: "Kanit", sans-serif;
+  color: white;
   text-decoration: underline;
 }
 
@@ -396,42 +497,17 @@ header nav div ul li a {
 
 .article-left-1 {
   height: 100%;
-  padding: 5px;
+  border: 5px solid;
+}
+
+.article-left-1-2 {
+  height: 100%;
   border: 5px solid;
 }
 
 #imagenLogoparcheH {
   width: 100%;
   height: 100%;
-}
-
-#botonHistoria {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: rgb(255, 208, 0);
-  margin-top: 2%;
-  margin-left: 47%;
-  margin-bottom: 2%;
-  font-size: 30px;
-  padding: 5px;
-  border: 2px solid rgb(255, 51, 0);
-  border-radius: 5px;
-  text-decoration: none;
-  color: rgb(0, 47, 255);
 }
 
 .article-right-1-2 {
@@ -449,11 +525,10 @@ header nav div ul li a {
   width: 100%;
   height: 10%;
   padding: 10px;
-  font-family: "DynaPuff", cursive;
-  color: red;
+  font-family: "Kanit", sans-serif;
+  color: white;
   font-size: 40px;
   text-align: center;
-  margin-bottom: 100px;
 }
 
 .caja-slide {
@@ -467,50 +542,10 @@ header nav div ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 70%;
+  width: 90%;
   height: 15%;
   background-color: transparent;
-  margin-left: 11%;
   margin-bottom: 2%;
-}
-
-.foto-slide {
-  width: 80%;
-  height: 100%;
-  border: 5px solid red;
-}
-
-/* Atributos */
-.fuente-ul-atr {
-  color: white;
-  padding: 20px;
-  font-size: 18px;
-  border: 5px solid red;
-}
-
-.caja-slide-atr {
-  display: inline-block;
-  width: 16%;
-  height: 30vh;
-  background-color: rgb(219, 66, 66);
-  margin-bottom: 80px;
-}
-
-.foto-slide-atr {
-  width: 100%;
-  height: 100%;
-  border: 5px solid red;
-}
-
-.caja-slide-centro--atr {
-  display: inline-block;
-  width: 50%;
-  height: 30vh;
-  padding: 40px;
-  background-color: rgb(0, 0, 0);
-  margin-left: 10px;
-  position: relative;
-  bottom: 203px;
 }
 
 /* Contacto */
@@ -532,6 +567,11 @@ header nav div ul li a {
   border: 10px dotted aqua;
   position: relative;
   top: 30px;
+  background-image: url(../assets/images/contacto-fondo.webp);
+}
+
+.form-label {
+  color: white;
 }
 
 .orientar-caja {
@@ -557,6 +597,7 @@ footer {
           animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  margin-bottom: 0;
 }
 footer section {
   display: -webkit-box;
@@ -574,6 +615,7 @@ footer section a img {
   width: 70px;
   height: 70px;
   padding: 5px;
+  border-radius: 100%;
 }
 
 @-webkit-keyframes animation_footer {
@@ -643,7 +685,11 @@ footer section a img {
 #grilla {
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
+  background-image: url(../assets/images/Menu-4.jpg);
+=======
   background-image: url(../assets/images/fondomadera1.jpg);
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
   background-repeat: repeat;
   display: -ms-grid;
   display: grid;
@@ -683,14 +729,34 @@ footer section a img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-top: 2%;
+    width: 100%;
+    height: 20%;
+    margin-top: 30%;
+    margin-bottom: 50%;
     background-color: transparent;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .article-left-1 {
+    width: 20%;
+    background-color: none;
+    border: 5px solid red;
+  }
+
+  .article-right-2 {
+    font-size: 15px;
+  }
+
+  .article-left-1-2 {
+    width: 60%;
+    background-color: none;
+    border: 5px solid red;
+  }
+
+  #estilo-h2-main, #estilo-h2-main--agregar, #estilo-h2-main-historia {
+    margin-top: 33%;
   }
 
   .caja-contacto-1 {
@@ -701,17 +767,17 @@ footer section a img {
     margin-bottom: 16%;
   }
 
-  .article-left-1 {
-    width: 0%;
-    height: 0%;
-    padding: 0px;
-    background-color: none;
-    border: none;
+  footer {
+    width: 100%;
   }
 }
 @media screen and (min-width: 500px) {
   .estilo-h1 {
-    font-size: 34px;
+    font-size: 32px;
+  }
+
+  footer {
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -735,14 +801,25 @@ footer section a img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-top: 2%;
+    width: 100%;
+    height: 15%;
+    margin-top: 10%;
+    margin-bottom: 11%;
     background-color: transparent;
+  }
+
+  .article-right-2 {
+    font-size: 25px;
+  }
+
+  #estilo-h2-main, #estilo-h2-main--agregar, #estilo-h2-main-historia {
+    font-size: 50px;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-decoration: underline;
   }
 
   .estilo-h1 {
@@ -760,10 +837,15 @@ footer section a img {
   }
 
   .article-left-1 {
-    width: 10%;
+    width: 20%;
     height: 100%;
-    padding: 5px;
     background-color: rgb(255, 255, 255);
+    border: 5px solid red;
+  }
+
+  .article-left-1-2 {
+    width: 30%;
+    background-color: none;
     border: 5px solid red;
   }
 }
@@ -802,14 +884,25 @@ footer section a img {
         -ms-flex-pack: center;
             justify-content: center;
     width: 80%;
-    height: 9%;
+    height: 15%;
     background-color: transparent;
     margin-left: 11%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
+    margin-top: 4%;
+  }
+
+  #estilo-h2-main, #estilo-h2-main--agregar, #estilo-h2-main-historia {
+    font-size: 55px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-decoration: underline;
   }
 
   .estilo-h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   footer {

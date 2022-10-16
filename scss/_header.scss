@@ -4,9 +4,10 @@ header {
     margin-bottom: 3em;
     background-image: url(../assets/images/4869.jpg);
     background-size: contain;
-    background-repeat:repeat-x ;
+    background-repeat: repeat-x;
     grid-area: header;
     z-index: 1;
+    position: fixed;
 
     nav {
         width: 100%;
@@ -20,7 +21,6 @@ header {
             .tamano-imagen {
                 background-color: transparent;
             }
-
         }
 
         div {
@@ -28,6 +28,7 @@ header {
 
                 &:hover {
                     color: map-get($paleta-colores, "Rojo");
+                    text-shadow: 2px 2px rgb(255, 255, 255);
                     transform: scale(1.25);
                     perspective: scale(2);
                     transition: all 5s;
@@ -36,7 +37,14 @@ header {
         }
 
         div {
+
             ul {
+<<<<<<< HEAD
+                #estilo-menu {
+                    &:hover {
+                        background-image: url(../assets/images/fuego-chico.jpg);
+                    }
+=======
                 li {
                     display: inline-block;
                     width: fit-content;
@@ -48,10 +56,11 @@ header {
                     padding: 5px;
                     border: 2px solid map-get($paleta-colores, "Blanco");
                     border-radius: 5px;
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 
                     a {
-                        text-decoration: none;
-                        color: map-get($paleta-colores, "Azul");
+
+                        background-color: transparent;
                     }
                 }
             }
@@ -61,34 +70,92 @@ header {
 }
 
 
-
 // CLASES 
 
 .navbar-toggler {
+<<<<<<< HEAD
+    background-color: rgb(255, 255, 255);
+=======
     background-color:  rgb(255, 255, 255);
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
     border-color: rgb(255, 255, 255);
 }
+
 .navbar-light {
     border-color: rgb(255, 255, 255);
+<<<<<<< HEAD
+    color: map-get($paleta-colores, "Blanco");
+=======
     color: map-get($paleta-colores , "Blanco");
 }
 .nav-link{
     color: rgb(255, 255, 255) !important;
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
 }
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700 !important;
+}
+
 #estilo-menu {
     color: map-get($paleta-colores, "Blanco");
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    background-image: url(../assets/images/Menu-3.jpg);
+    background-repeat: repeat;
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid map-get($paleta-colores, "Blanco");
+    border-radius: 5px;
     text-decoration: none;
-    margin: 1rem;
-    font-weight: 400;
+    margin: 0rem;
+    font-weight: 700;
     font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#estilo-menu-2 {
+    color: map-get($paleta-colores, "Blanco");
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    background-image: url(../assets/images/Menu-3.jpg);
+    background-repeat: repeat;
+    font-size: 18px !important;
+    padding: 5px;
+    border: 2px solid map-get($paleta-colores, "Rojo");
+    border-radius: 5px;
+    margin: 0rem;
+    font-weight: 500;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#estilo-menu-2:hover {
+        background-image: url(../assets/images/fuego-chico.jpg);
+}
+
+
 .estilo-h1 {
     height: 100%;
     padding: 10px;
     color: rgb(255, 255, 255);
+<<<<<<< HEAD
+    font-family: 'New Rocker', cursive;
+=======
     font-family: 'MedievalSharp', cursive;
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
     font-size: 38px;
-    text-shadow: 4px 4px rgb(255, 0, 0);
+    text-shadow: 2px 2px rgb(255, 0, 0);
     display: flex;
     align-items: center;
     position: relative;
@@ -100,17 +167,15 @@ header {
 
 .estilo-h1:hover {
     color: red;
+    text-shadow: 2px 2px rgb(255, 255, 255);
     transform: scale(1.15);
     perspective: scale(2);
     transition: all 5s;
 }
 
-
 .tamano-imagen {
     width: 100%;
     height: 100%;
-    
-
 }
 
 .tamano-imagen--1 {
@@ -123,4 +188,3 @@ header {
     width: 20%;
     height: 100%;
 }
-

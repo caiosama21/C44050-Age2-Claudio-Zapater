@@ -5,7 +5,7 @@ footer {
     animation-name: animation_footer;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-
+    margin-bottom: 0;
     section {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -23,20 +23,11 @@ footer {
                 width: 70px;
                 height: 70px;
                 padding: 5px;
+                border-radius: 100%;
             }
         }
     }
-
-
-
-
-
 }
-
-
-
-
-
 
 @keyframes animation_footer {
     0% {

@@ -15,17 +15,23 @@
 #grilla {
     width: 100%;
     height: 100vh;
+<<<<<<< HEAD
+    background-image: url(../assets/images/Menu-4.jpg);
+=======
     background-image: url(../assets/images/fondomadera1.jpg);
+>>>>>>> 25aae0f60dadc199b37e61d9ac234f4d3c8d065f
     background-repeat: repeat;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "header header header"
-                         "main main main"
-                         "footer footer footer";
+        "main main main"
+        "footer footer footer";
 }
 
 /* Media Queris Mobile to Desktop */
+
+// --360px
 
 @media screen and (min-width: 360px) {
     .tamano-caja-img {
@@ -46,10 +52,32 @@
     .caja-slide {
         display: flex;
         flex-direction: column;
-        width: fit-content;
-        height: fit-content;
-        margin-top: 2%;
+        width: 100%;
+        height: 20%;
+        margin-top: 30%;
+        margin-bottom: 50%;
         background-color: transparent;
+        align-items: center;
+    }
+
+    .article-left-1 {
+        width: 20%;
+        background-color: none;
+        border: 5px solid red;
+    }
+
+    .article-right-2 {
+        font-size: 15px;
+    }
+
+    .article-left-1-2 {
+        width: 60%;
+        background-color: none;
+        border: 5px solid red;
+    }
+
+    #estilo-h2-main {
+        margin-top: 33%;
     }
 
     .caja-contacto-1 {
@@ -60,20 +88,26 @@
         margin-bottom: 16%;
     }
 
-    .article-left-1 {
-        width: 0%;
-        height: 0%;
-        padding: 0px;
-        background-color: none;
-        border: none;
+    footer {
+        width: 100%;
     }
 
 }
+
+// --500px
+
 @media screen and (min-width: 500px) {
-    .estilo-h1{
-        font-size: 34px;
+    .estilo-h1 {
+        font-size: 32px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
+
+// --768px
+
 @media screen and (min-width: 768px) {
     .tamano-caja-img {
         width: 20%;
@@ -90,10 +124,25 @@
     .caja-slide {
         display: flex;
         flex-direction: row;
-        width: fit-content;
-        height: fit-content;
-        margin-top: 2%;
+        width: 100%;
+        height: 15%;
+        margin-top: 10%;
+        margin-bottom: 11%;
         background-color: transparent;
+    }
+
+    .article-right-2 {
+        font-size: 25px;
+    }
+
+    #estilo-h2-main {
+        font-size: 50px;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        color: map-get($paleta-colores, "Blanco");
+        text-decoration: underline
     }
 
     .estilo-h1 {
@@ -111,13 +160,20 @@
     }
 
     .article-left-1 {
-        width: 10%;
+        width: 20%;
         height: 100%;
-        padding: 5px;
         background-color: rgb(255, 255, 255);
         border: 5px solid red;
     }
+
+    .article-left-1-2 {
+        width: 30%;
+        background-color: none;
+        border: 5px solid red;
+    }
 }
+
+// --1200px
 
 @media screen and (min-width: 1200px) {
     .tamano-caja-img {
@@ -143,14 +199,25 @@
         flex-direction: row;
         justify-content: center;
         width: 80%;
-        height: 9%;
+        height: 15%;
         background-color: transparent;
         margin-left: 11%;
-        margin-bottom: 2%;
+        margin-bottom: 0%;
+        margin-top: 4%;
+    }
+
+    #estilo-h2-main {
+        font-size: 55px;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        color: map-get($paleta-colores, "Blanco");
+        text-decoration: underline
     }
 
     .estilo-h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     footer {

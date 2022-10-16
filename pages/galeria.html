@@ -7,14 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Se Agrega SEO -->
     <meta name="keywords" content="html,css,scss, Age-of-Empires">
-    <meta name="description" content="En nuestra Galeria podras encontrar las mejores imagenes de las situaciones mas espectaculares de cada partida con dicha civilizacion">
+    <meta name="description"
+        content="En nuestra Galeria podras encontrar las mejores imagenes de las situaciones mas espectaculares de cada partida con dicha civilizacion">
     <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <!-- Animacion -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- bootstrap para agregar items -->
@@ -26,13 +36,9 @@
 </head>
 
 <body id="grilla">
-    <!-- Header con imagen, Titulo y Navegador -->
+    <!-- Header con Titulo y Navegador -->
     <header id="Arriba">
         <nav>
-            <!-- Logo -->
-            <div class="tamano-caja-img">
-                <img class="tamano-imagen" src="../assets/images/Logo_age_2DE.jpg" alt="logo">
-            </div>
             <!-- Titulo con animacion de escala -->
             <div>
                 <h1 class="estilo-h1">Age of History</h1>
@@ -40,23 +46,25 @@
             <!-- Barra de navegacion con hamburguesa -->
             <div
                 class="container-fluid navbar navbar-expand-lg navbar-light h-100 d-flex flex-row justify-content-center">
-                <a class="navbar-brand" id="estilo-menu" href="../index.html">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item" id="estilo-menu">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item" id="estilo-menu">
                             <a class="nav-link" aria-current="page" href="../pages/historia.html">Historia</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="estilo-menu">
                             <a class="nav-link" href="../pages/atributos.html">Atributos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="estilo-menu">
                             <a class="nav-link" href="../pages/galeria.html">Galeria</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="estilo-menu">
                             <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
@@ -65,121 +73,102 @@
         </nav>
     </header>
     <main class="main-galeria">
-        <h2 class="animate__animated animate__bounce" id="estilo-h2-main">Fotos</h2>
-        <!-- Slides de fotos de las civilizaciones y transicion -->
-        <section>
-            <article>
-                <h2 class="estilo-h2-a">Godos</h2>
-            </article>
+        <div>
+            <h2 class="animate__animated animate__bounce" id="estilo-h2-main">Fotos</h2>
+        </div>
+        <!-- Imagenes con transiciones en escala -->
+        <section class="caja-slide animate__animated animate__fadeIn animate__delay-1s">
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-1.png"><img class="card-img-top"
+                        src="../assets/images/age-slide-1.png" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Birmanos con su ciudad en edad Imperial. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-2.png"><img class="card-img-top"
+                        src="../assets/images/age-slide-2.png" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Rise of the Rajas expansion. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-3.webp"><img class="card-img-top"
+                        src="../assets/images/age-slide-3.webp" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Ciudad Inglesa. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-4.webp"><img class="card-img-top"
+                        src="../assets/images/age-slide-4.webp" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Estambul. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
         </section>
         <!-- Imagenes con transiciones en escala -->
-        <section class="caja-slide">
-            <article>
-                <a href="../assets/images/age-slide-1.png"><img class="foto-slide"
-                        src="../assets/images/age-slide-1.png" alt="godos1"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-2.png"><img class="foto-slide"
-                        src="../assets/images/age-slide-2.png" alt="godos2"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-3.webp"><img class="foto-slide"
-                        src="../assets/images/age-slide-3.webp" alt="godos3"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-4.webp"><img class="foto-slide"
-                        src="../assets/images/age-slide-4.webp" alt="godos4"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-5.webp"><img class="foto-slide"
-                        src="../assets/images/age-slide-5.webp" alt="godos5"></a>
-            </article>
+        <section class="caja-slide animate__animated animate__fadeIn animate__delay-2s">
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-11.jpg"><img class="card-img-top"
+                        src="../assets/images/age-slide-11.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Mayas edad Imperial. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-12.jpg"><img class="card-img-top"
+                        src="../assets/images/age-slide-12.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Aztecas preparandose para atacar. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-13.jpg"><img class="card-img-top"
+                        src="../assets/images/age-slide-13.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Mayas edad Feudal. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-14.jpg"><img class="card-img-top"
+                        src="../assets/images/age-slide-14.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Aztecas en edad de los castillos. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
         </section>
-        <section class="caja-slide">
-            <article>
-                <h2 class="estilo-h2-a">Ingleses</h2>
-            </article>
+        <!-- Imagenes con transiciones en escala -->
+        <section class="caja-slide animate__animated animate__fadeIn animate__delay-3s">
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/006.JPG"><img class="card-img-top" src="../assets/images/006.JPG"
+                        alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Ataque Godo a Castillo. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/age-slide-5.webp"><img class="card-img-top"
+                        src="../assets/images/age-slide-5.webp" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Ataque Naval. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/banner-key-left.jpg"><img class="card-img-top"
+                        src="../assets/images/banner-key-left.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Tapiz de defensa de roma. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 23rem; height: 18rem;">
+                <a href="../assets/images/Escudos.jpg"><img class="card-img-top" src="../assets/images/Escudos.jpg"
+                        alt="Card image cap"></a>
+                <div class="card-body">
+                    <p class="card-text">Escudos del juego. Cliquea en la imagen para ampliar!</p>
+                </div>
+            </div>
         </section>
-        <section class="caja-slide">
-            <!-- Imagenes con transiciones en escala -->
-            <article>
-                <a href="../assets/images/age-slide-11.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-11.jpg" alt="ingleses1"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-12.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-12.jpg" alt="ingleses2"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-13.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-13.jpg" alt="ingleses3"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-14.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-14.jpg" alt="ingleses4"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-15.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-15.jpg" alt="ingleses5"></a>
-            </article>
-        </section>
-        <section class="caja-slide">
-            <article>
-                <h2 class="estilo-h2-a">Portugueses</h2>
-            </article>
-        </section>
-        <section class="caja-slide">
-            <!-- Imagenes con transiciones en escala -->
-            <article>
-                <a href="../assets/images/age-slide-1.png"><img class="foto-slide"
-                        src="../assets/images/age-slide-1.png" alt="ingleses1"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-2.png"><img class="foto-slide"
-                        src="../assets/images/age-slide-2.png" alt="ingleses2"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-3.webp"><img class="foto-slide"
-                        src="../assets/images/age-slide-3.webp" alt="ingleses3"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-4.webp"><img class="foto-slide"
-                        src="../assets/images/age-slide-4.webp" alt="ingleses4"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-5.webp"><img class="foto-slide"
-                        src="../assets/images/age-slide-5.webp" alt="ingleses5"></a>
-            </article>
-        </section>
-        <section class="caja-slide">
-            <article>
-                <h2 class="estilo-h2-a">Aztecas</h2>
-            </article>
-        </section>
-        <section class="caja-slide">
-            <!-- Imagenes con transiciones en escala -->
-            <article>
-                <a href="../assets/images/age-slide-11.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-11.jpg" alt="ingleses1"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-12.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-12.jpg" alt="ingleses2"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-13.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-13.jpg" alt="ingleses3"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-14.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-14.jpg" alt="ingleses4"></a>
-            </article>
-            <article>
-                <a href="../assets/images/age-slide-15.jpg"><img class="foto-slide"
-                        src="../assets/images/age-slide-15.jpg" alt="ingleses5"></a>
-            </article>
-        </section>
-
     </main>
 
     <footer>
